@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&Open+Sans');
-
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 ::-webkit-scrollbar {
     width: 0px;
 }
@@ -7,7 +7,6 @@
 body{
     background-color: #F2F2F2;
     width: 100%;
-    overflow-x: hidden;
     margin: 0;
 }
 
@@ -17,25 +16,21 @@ header {
     position: fixed;
     width: 100%;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    font-weight: 100%;
     font-size: 24px;
     border-bottom: 2px solid #343434;
-    top: 0;
-    left: 0;
 }
 
 a{
     text-decoration : none;
     color: #343434;
-    font-style: normal;
+
 }
 
 .nom{
-    width: max-content;
+
     font-family: 'Dela Gothic One';
-    display: flex;
+
     margin-left: 2%;
 }
 
@@ -43,20 +38,18 @@ nav {
     flex: 1;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+
 }
 nav a {
     color: #343434;
     font-family: 'Open Sans';
-    font-style: normal;
-    text-decoration : none;
+
     font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
+
 }
 
 .header-button-box {
-    display: flex;
+
     margin-right: 2%;
 }
 
@@ -70,30 +63,24 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    background: #F2F2F2;
     border: 3px solid #343434;
     border-radius: 56px;
 
-    position: relative;
-    z-index: 2;
+
     cursor: pointer;
 }
 
 .index {
-    width: 100%;
-    height: 100vh;
+
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    height: 100vh;
     border-bottom: 2px solid #343434;
 }
 
 .index-left-part{
     display: flex;
     width: 50%;
-    height: 100vh;
+
     flex-direction: column;
     justify-content: center;
     border-right: 2px solid #343434;
@@ -101,8 +88,7 @@ nav a {
 
 .index-left-title{
     font-family: 'Dela Gothic One';
-    font-style: normal;
-    font-weight: 250;
+
     font-size: 36px;
     line-height: 80px;    
     padding-left: 20px;
@@ -111,27 +97,25 @@ nav a {
 
 .index-left-content{
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
+
     font-size: 14px;
     line-height: 33px;
-    display: flex;
-    align-items: center;
+
     text-transform: uppercase;
     padding-left: 20px;
     color: #343434;
 }
 
 .index-left-button-box{
-    display: flex;
+
     padding-left: 20px;
-    margin-top: 2%;
+    margin-top: 20px;
 }
 
 .index-left-button{
     font-weight: 600;
     font-size: 24px;
-    line-height: 33px;
+
     width: 302px;
     height: 56px;
     display: flex;
@@ -139,11 +123,10 @@ nav a {
     align-items: center;
     font-family: 'Open Sans';
     text-transform: uppercase;
-    background: #F2F2F2;
+    background-color: #F2F2F2;
     border: 3px solid #343434;
     border-radius: 56px;
-    z-index: 2;
-    position: relative;
+
     cursor: pointer;
 }
 
@@ -151,7 +134,6 @@ nav a {
     display: flex;
     justify-content: center;
     width: 50%;
-    height: 100vh;
 }
 
 .aboutMe-index{
@@ -160,10 +142,9 @@ nav a {
     align-items: center;
     justify-content: center;
     font-family: 'Dela Gothic One';
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 56px;
-    line-height: 81px;
+
     text-transform: uppercase;
     color: #343434;
     border-bottom: 2px solid #343434;
@@ -171,9 +152,7 @@ nav a {
 
 .aboutMe{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+
     height: 647px;
     border-bottom: 2px solid #343434;
 }
@@ -183,7 +162,7 @@ nav a {
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 100%;
+
     border-right: 2px solid #343434;
 }
 
@@ -191,21 +170,18 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
     
     width: 50%;
-    height: 100%;
+
 }
 
 .aboutMe-right-title{
 
     font-family: 'Dela Gothic One';
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 32px;
     line-height: 55px;
-    display: flex;
-    align-items: left;
+
     height: 150px;
     padding-left: 40px;
     text-transform: uppercase;
@@ -215,15 +191,13 @@ nav a {
 .aboutMe-right-content{
 
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+
+    font-size: 18px;
     line-height: 136%;
-    width: 90%;
-    height: 120px;
+
+    height: 150px;
     padding-left: 40px;
-    display: flex;
-    align-items: center;
+
     color: #343434;
 }
 
@@ -231,9 +205,8 @@ nav a {
 .aboutMe-right-localisation{
 
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+
+    font-size: 18px;
     line-height: 136%;
     padding-left: 40px;
     color: #343434;
@@ -244,45 +217,40 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+
     height: 400px;
 }
 
 .stage-title{
     font-family: 'Dela Gothic One';
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 32px;
-    line-height: 46px;
+
     margin-top: 50px;
-    display: flex;
-    align-items: center;
+
     text-transform: uppercase;
     color: #F2F2F2;
 }
 
 .stage-date{
     font-family: 'Open Sans';
-    font-style: normal;
+
     font-weight: 700;
     font-size: 24px;
-    line-height: 33px;
+
     margin-top: 30px;
-    display: flex;
-    align-items: center;
+
     text-transform: uppercase;
     color: #F2F2F2;
 }
 
 .stage-content{
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+
+    font-size: 19px;
     line-height: 136%;
     margin-top: 50px;
-    display: flex;
-    align-items: center;
+
     color: #F2F2F2;
 }
 
@@ -292,10 +260,9 @@ nav a {
     align-items: center;
     justify-content: center;
     font-family: 'Dela Gothic One';
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 56px;
-    line-height: 81px;
+
     text-transform: uppercase;
     color: #343434;
     border-bottom: 2px solid #343434;
@@ -304,7 +271,7 @@ nav a {
 .skills{
     background-color: #CDB4FF;
     display: flex;
-    flex-direction: row;
+
     justify-content: space-around;
     align-items: center;
     height: 647px;
@@ -314,28 +281,17 @@ nav a {
 .skill-language{
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
+
     justify-content: center;
     align-items: center;
-    padding: 24px 40px;
-    gap: 40px;
+
     width: 197px;
     height: 194.91px;
-
-    /* Cream */
-
     background: #F2F2F2;
-    /* Black */
-
     border: 1px solid #343434;
     border-radius: 200px;
     box-shadow: 8px 8px #343434;
     
-}
-
-.skill-shadow{
-    box-shadow: 8px 8px;
-    color: #343434;
 }
 
 .project-index{
@@ -344,10 +300,7 @@ nav a {
     align-items: center;
     justify-content: center;
     font-family: 'Dela Gothic One';
-    font-style: normal;
-    font-weight: 400;
     font-size: 56px;
-    line-height: 81px;
     text-transform: uppercase;
     color: #343434;
     border-bottom: 2px solid #343434;
@@ -359,23 +312,22 @@ nav a {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    height: 1500px;
+
     border-bottom: 2px solid #343434;
     padding-top: 50px;
+    padding-bottom: 50px
 }
 
 .projet-box{
-    position: relative;
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: column;
+
     width: 40%;
     background: #F2F2F2;
     border: 1px solid #343434;
+    margin-top: 50px;
 }
 
 .projet-picture{
-    position: relative;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -384,14 +336,12 @@ nav a {
 
 .projet-title{
     font-family: 'Dela Gothic One';
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 32px;
     line-height: 26px;
     margin-left: 5%;
     margin-right: 5%;
-    display: flex;
-    align-items: center;
+
     text-transform: uppercase;
     color: #343434;
     border-top: 2px solid #343434;
@@ -399,14 +349,13 @@ nav a {
 
 .projet-content{
     font-family: 'Open Sans';
-    font-style: normal;
+
     font-weight: 700;
     font-size: 24px;
-    line-height: 33px;
+
     margin-left: 5%;
-    margin-right: 5%;
-    display: flex;
-    align-items: center;
+
+
     text-transform: uppercase;
     color: #343434;
 }
@@ -417,6 +366,7 @@ nav a {
     margin-right: 5%;
     padding-top: 50px;
     padding-block-end: 80px;
+    margin-bottom: 20px;
 }
 
 .contact-index{
@@ -425,10 +375,9 @@ nav a {
     align-items: center;
     justify-content: center;
     font-family: 'Dela Gothic One';
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 56px;
-    line-height: 81px;
+
     text-transform: uppercase;
     color: #343434;
     border-bottom: 2px solid #343434;
@@ -441,33 +390,27 @@ nav a {
 footer{
     height: 175px;
     display: flex;
-    align-items: flex-start;
+
     justify-content: space-between;
-    font-style: normal;
+
     padding: 40px 40px;
     color: #F2F2F2;
     background-color: #343434;
 }
 
 .footer-title{
-    display: flex;
-    flex-direction: column;
+
     font-family: 'Dela Gothic One';
-    font-weight: 400;
+
     font-size: 32px;
     line-height: 36px;
     text-transform: uppercase;
 }
 
 .footer-credits{
-    display: flex;
+
     font-family: 'Open Sans';
-    font-weight: 400;
+
     font-size: 16px;
 
 }
-
-
-
-
-
