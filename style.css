@@ -21,6 +21,11 @@ header {
     border-bottom: 2px solid #343434;
 }
 
+#logo{
+    width: auto;
+    height: auto;
+}
+
 a{
     text-decoration : none;
     color: #343434;
@@ -31,7 +36,7 @@ a{
 
     font-family: 'Dela Gothic One';
 
-    margin-left: 2%;
+    margin-left: 20px;
 }
 
 nav {
@@ -49,9 +54,11 @@ nav a {
 }
 
 .header-button-box {
-
-    margin-right: 2%;
+    margin-right: 20px;
+    width: 315px;
+    height: 62px;
 }
+
 
 .header-button {
     font-weight: 600;
@@ -65,9 +72,17 @@ nav a {
     align-items: center;
     border: 3px solid #343434;
     border-radius: 56px;
-
-
     cursor: pointer;
+}
+
+.header-button:hover {
+    width: 315px;
+    height: 62px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: #B4FFCD;
+    box-shadow: 10px 10px #343434;
+    transition: all 250ms;
 }
 
 .index {
@@ -107,15 +122,15 @@ nav a {
 }
 
 .index-left-button-box{
-
-    padding-left: 20px;
     margin-top: 20px;
+    margin-left: 20px;
+    width: 315px;
+    height: 62px;
 }
 
 .index-left-button{
     font-weight: 600;
     font-size: 24px;
-
     width: 302px;
     height: 56px;
     display: flex;
@@ -126,8 +141,17 @@ nav a {
     background-color: #F2F2F2;
     border: 3px solid #343434;
     border-radius: 56px;
-
     cursor: pointer;
+}
+
+.index-left-button:hover {
+    width: 315px;
+    height: 62px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: #B4FFCD;
+    box-shadow: 10px 10px #343434;
+    transition: all 250ms;
 }
 
 .index-right-part{
@@ -203,9 +227,7 @@ nav a {
 
 
 .aboutMe-right-localisation{
-
     font-family: 'Open Sans';
-
     font-size: 18px;
     line-height: 136%;
     padding-left: 40px;
@@ -217,41 +239,64 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     height: 400px;
 }
 
 .stage-title{
     font-family: 'Dela Gothic One';
-
     font-size: 32px;
-
     margin-top: 50px;
-
     text-transform: uppercase;
     color: #F2F2F2;
 }
 
 .stage-date{
     font-family: 'Open Sans';
-
     font-weight: 700;
     font-size: 24px;
-
     margin-top: 30px;
-
     text-transform: uppercase;
     color: #F2F2F2;
 }
 
 .stage-content{
     font-family: 'Open Sans';
-
     font-size: 19px;
     line-height: 136%;
     margin-top: 50px;
-
     color: #F2F2F2;
+}
+
+.stage-button-box{
+    margin-top: 20px;
+    width: 302px;
+    height: 56px;
+}
+
+.stage-button{
+    font-weight: 600;
+    font-size: 24px;
+    width: 302px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    background-color: #F2F2F2;
+    border: 3px solid #343434;
+    border-radius: 56px;
+    cursor: pointer;
+}
+
+.stage-button:hover {
+    width: 315px;
+    height: 62px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: #B4FFCD;
+    box-shadow: 10px 10px #CDB4FF;
+    transition: all 250ms;
 }
 
 .skills-index{
@@ -319,11 +364,17 @@ nav a {
 }
 
 .projet-box{
-
-    width: 40%;
+    width: 800px;
     background: #F2F2F2;
     border: 1px solid #343434;
     margin-top: 50px;
+    margin-left: 10px;
+}
+
+.projet-box:hover{
+    margin-top: 40px;
+    margin-left: -10px;
+    box-shadow: 8px 8px #343434;
 }
 
 .projet-picture{
@@ -334,13 +385,15 @@ nav a {
     height: 300px;
 }
 
+
+
 .projet-title{
     font-family: 'Dela Gothic One';
 
     font-size: 32px;
     line-height: 26px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 40px;
+    margin-right: 40px;
 
     text-transform: uppercase;
     color: #343434;
@@ -355,19 +408,105 @@ nav a {
 
     margin-left: 5%;
 
-
+    margin-bottom: 20px;
     text-transform: uppercase;
     color: #343434;
 }
 
 .project-button-box{
-    display: flex;
-    justify-content: right;
-    margin-right: 5%;
-    padding-top: 50px;
-    padding-block-end: 80px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
     margin-bottom: 20px;
+    width: 315px;
+    height: 62px;
 }
+
+.project-button{
+    font-weight: 600;
+    font-size: 24px;
+    width: 302px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    background-color: #F2F2F2;
+    border: 3px solid #343434;
+    border-radius: 56px;
+    cursor: pointer;
+}
+
+.project-button:hover {
+    width: 315px;
+    height: 62px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: #CDB4FF;
+    box-shadow: 10px 10px #343434;
+    transition: all 250ms;
+}
+.overlay {
+    overflow-y: hidden;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background: rgba(76, 76, 76, 0.7);
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.popup {
+
+    position: relative;
+    background: #F2F2F2;
+    width: 80%;
+    height: 80%;
+    position: relative;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.popup .close {
+    position: absolute;
+    top: 0px;
+    right: 00px;
+
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #06D85F;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+
+
 
 .contact-index{
     height: 150px;
@@ -375,17 +514,55 @@ nav a {
     align-items: center;
     justify-content: center;
     font-family: 'Dela Gothic One';
-
     font-size: 56px;
-
     text-transform: uppercase;
     color: #343434;
     border-bottom: 2px solid #343434;
 }
 
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 450px;
+}
 
+.contact-box{
+    display: flex; 
+    border: 1px solid #343434;
+    
+    height: 350px;
+}
 
+.contact-content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 
+}
+
+.contact-mail{
+    font-family: 'Dela Gothic One';
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #343434;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact-reseaux{
+    padding-top: 10px;
+    text-align: center;
+    height: 70px;
+    width: 80px;
+}
+
+.contact-reseaux:hover{
+
+    background-color: #CDB4FF;
+    border-radius: 75px;
+    cursor: pointer;
+}
 
 footer{
     height: 175px;
@@ -412,5 +589,522 @@ footer{
     font-family: 'Open Sans';
 
     font-size: 16px;
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    header{
+        font-size: 11px;
+    }
+
+    .header-button-box {
+        margin-right: 20%;
+        width: 110px;
+        height: 35px;
+    }
+    
+    
+    .header-button {
+        font-size: 12px;
+        width: 100px;
+        height: 30px;
+        border: 1px solid #343434;
+    }
+    
+    .header-button:hover {
+        width: 104px;
+        height: 32px;
+        box-shadow: 2px 2px #343434;
+    }
+
+    #logo{
+        width: 250px;
+        height: 324px;
+        margin-top: 200px;
+    }
+
+    #picture{
+        width: 248px;
+        height: 267px;
+    }
+
+    #skill-logo{
+        width: 73px;
+        height: 61px;
+    }
+
+    #project-logo{
+        width: 500px;
+        height: 196px;
+    }
+
+    .index-left-title {
+        font-size: 12px;
+    }
+
+    .index-left-content {
+        font-size: 6px;
+    }
+
+    .index-left-button-box {
+        margin-right: 20%;
+        width: 110px;
+        height: 35px;
+    }
+    
+    .index-left-button {
+        font-size: 12px;
+        width: 100px;
+        height: 30px;
+        border: 1px solid #343434;
+    }
+    
+    .index-left-button:hover {
+        width: 104px;
+        height: 32px;
+        box-shadow: 2px 2px #343434;
+    }
+
+    .index-right-part {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .aboutMe-index {
+        font-size: 36px;
+    }
+
+    .aboutMe-right-title {
+        font-size: 22px;
+    }
+
+    .aboutMe-right-content {
+        font-size: 14px;
+    }
+
+    .aboutMe-right-localisation {
+        font-size: 14px;
+    }
+
+    .stage-title {
+        font-size: 22px;
+    }
+
+    .stage-date {
+        font-size: 14px;
+    }
+
+    .stage-content {
+        font-size: 15px;
+    }
+
+    .stage-button-box {
+        justify-content: center;
+        width: 110px;
+        height: 35px;
+    }
+    
+    .stage-button {
+        font-size: 12px;
+        width: 100px;
+        height: 30px;
+        border: 1px solid #343434;
+    }
+    
+    .stage-button:hover {
+        width: 104px;
+        height: 32px;
+        box-shadow: 2px 2px #343434;
+    }
+
+    .skills-index {
+        font-size: 36px;
+    }
+
+
+    .skills {
+        flex-wrap: wrap;
+    }
+
+    .skill-language {
+        width: 159px;
+        height: 164.91px;
+    }
+
+    .project-index {
+        font-size: 36px;
+    }
+
+    .projet-box {
+        width: 600px;
+    }
+
+    .projet-picture {
+        height: 276px;
+    }
+
+    .contact-index {
+        font-size: 36px;
+    }
+
+    .contact-box {
+        margin-left: 20px;
+        width: 60%;
+    }
+
+    .contact-mail {
+        font-size: 13px;
+    }
+
+    .footer-title {
+        font-size: 22px;
+    }
+
+    .footer-credits {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1035px) and (min-width: 767px){
+    header{
+        font-size: 12px;
+    }
+
+    .header-button-box {
+        margin-right: 10px;
+        width: 201px;
+        height: 43px;
+    }
+    
+    
+    .header-button {
+        font-size: 17px;
+        width: 196px;
+        height: 41px;
+        border: 1px solid #343434;
+    }
+    
+    .header-button:hover {
+        width: 201px;
+        height: 43px;
+        box-shadow: 2px 2px #343434;
+    }
+
+    #logo{
+        width: 300px;
+        height: 387px;
+        margin-top: 300px;
+    }
+
+    #picture{
+        width: 370px;
+        height: 393px;
+    }
+
+    #skill-logo{
+        width: 73px;
+        height: 61px;
+    }
+
+    #project-logo{
+        width: 500px;
+        height: 196px;
+    }
+
+    .index-left-title {
+        font-size: 17px;
+    }
+
+    .index-left-content {
+        font-size: 12px;
+    }
+
+    .index-left-button-box {
+        margin-right: 10px;
+        width: 201px;
+        height: 43px;
+    }
+    
+    
+    .index-left-button {
+        font-size: 17px;
+        width: 196px;
+        height: 41px;
+        border: 1px solid #343434;
+    }
+    
+    .index-left-button:hover {
+        width: 201px;
+        height: 43px;
+        box-shadow: 2px 2px #343434;
+    }
+
+    .aboutMe-index {
+        font-size: 40px;
+    }
+
+    .stage-button-box {
+        margin-right: 10px;
+        width: 201px;
+        height: 43px;
+    }
+    
+    
+    .stage-button {
+        font-size: 17px;
+        width: 196px;
+        height: 41px;
+        border: 1px solid #343434;
+    }
+    
+    .stage-button:hover {
+        width: 201px;
+        height: 43px;
+        box-shadow: 2px 2px #CDB4FF;
+    }
+
+    .skills-index {
+        font-size: 40px;
+    }
+
+    .skills{
+        flex-wrap: wrap;
+    }
+
+    .skill-language {
+        width: 159px;
+        height: 164.91px;
+    }
+
+    .project-index {
+        font-size: 40px;
+    }
+
+    .projet-box {
+        width: 600px;
+    }
+
+    .projet-picture {
+        height: 276px;
+    }
+
+    .contact-index {
+        font-size: 40px;
+    }
+
+    .contact-box {
+        margin-left: 20px;
+        width: 60%;
+    }
+
+    .contact-mail {
+        font-size: 21px;
+    }
+
+    .footer-title {
+        font-size: 29px;
+    }
+
+    .footer-credits {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1036px){
+    header{
+        font-size: 17px;
+    }
+
+    .header-button-box {
+        margin-right: 20%;
+        width: 250px;
+        height: 45px;
+    }
+    
+    
+    .header-button {
+        font-size: 20px;
+        width: 240px;
+        height: 45px;
+        border: 1px solid #343434;
+    }
+    
+    .header-button:hover {
+        width: 245px;
+        height: 47px;
+        box-shadow: 2px 2px #343434;
+    }
+
+    #logo{
+        width: 420px;
+        height: 545px;
+        margin-top: 200px;
+    }
+
+    #picture{
+        width: 370px;
+        height: 393px;
+    }
+
+    #skill-logo{
+        width: 73px;
+        height: 61px;
+    }
+
+    #project-logo{
+        width: 500px;
+        height: 196px;
+    }
+
+    .index-left-title {
+        font-size: 23px;
+    }
+
+    .index-left-content {
+        font-size: 12px;
+    }
+
+    .index-left-button-box {
+        margin-right: 20%;
+        width: 245px;
+        height: 47px;
+    }
+    
+    .index-left-button {
+        font-size: 20px;
+        width: 240px;
+        height: 45px;
+        border: 1px solid #343434;
+    }
+    
+    .index-left-button:hover {
+        width: 245px;
+        height: 47px;
+        box-shadow: 2px 2px #343434;
+    }
+
+    .index-right-part {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .aboutMe-index {
+        font-size: 46px;
+    }
+
+
+    .stage-button-box {
+        justify-content: center;
+        width: 245px;
+        height: 47px;
+    }
+    
+    .stage-button {
+        font-size: 20px;
+        width: 240px;
+        height: 45px;
+        border: 1px solid #343434;
+    }
+    
+    .stage-button:hover {
+        width: 245px;
+        height: 47px;
+        box-shadow: 2px 2px #343434;
+    }
+
+    .skills-index {
+        font-size: 46px;
+    }
+
+    .skill-language {
+        width: 159px;
+        height: 164.91px;
+    }
+
+    .project-index {
+        font-size: 46px;
+    }
+
+    .projet-box {
+        width: 600px;
+    }
+
+    .projet-picture {
+        height: 276px;
+    }
+
+    .contact-index {
+        font-size: 46px;
+    }
+
+    .contact-box {
+        margin-left: 20px;
+        width: 60%;
+    }
+
+    .contact-mail {
+        font-size: 24px;
+    }
+
+    .footer-title {
+        font-size: 32px;
+    }
+
+    .footer-credits {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1572px) and (min-width: 1281px) {
+    header{
+        font-size: 18px;
+    }
+
+    #logo {
+        width: 550px;
+        height: 715px;
+        margin-top: 214px;
+    }
+
+    #picture{
+        width: 450px;
+        height: 478px;
+    }
+
+    #skill-logo{
+        width: 73px;
+        height: 61px;
+    }
+
+    #project-logo{
+        width: 500px;
+        height: 196px;
+    }
+
+    .index-left-title {
+        font-size: 29px;
+    }
+
+    .index-left-content {
+        font-size: 12px;
+    }
+
+    .index-right-part {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .skills {
+        flex-wrap: wrap;
+    }
+
+    .skill-language {
+        width: 159px;
+        height: 164.91px;
+    }
 
 }
